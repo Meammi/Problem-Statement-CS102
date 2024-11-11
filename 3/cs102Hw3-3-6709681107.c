@@ -26,7 +26,6 @@ int main(){
     else{
         printf("This is NOT a magic square!");
     }
-    
     return 0;
 }
 //Check all element
