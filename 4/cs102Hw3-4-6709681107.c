@@ -16,7 +16,7 @@ int main(){
     int i = 0;
     while (i < index)
     {
-        scanf(" %lf",*(num + 1)); //Change
+        scanf(" %lf",&*(num + i)); //Change
         i++;
     }
 
