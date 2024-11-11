@@ -33,7 +33,7 @@ int main(){
 //function check min&max&avg
 void minmax_Value(double num[],int length){
     double avg = 0;
-    double min_value = num[0];
+    double min_value = *(num + 0); //Change
     double max_value = 0;
     int min_index = 0;
     int max_index = 0;
