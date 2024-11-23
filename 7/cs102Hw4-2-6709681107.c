@@ -45,7 +45,7 @@ int main(){
         }
         printf("==\n");
     }
-    
+    printf("Exiting program.");
 
     return 0;
 }
